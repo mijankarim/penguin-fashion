@@ -12,22 +12,29 @@ body {
     font-family: var(--body-font-family);
 }
 
+/*** Header ***/
+
 header, #header-banner{
     background: var(--pf-background);
 }
 
-.headline {
-    color: var(--pf-blue);
-    font-family: var(--heading-font-family);
-    font-size:80px;
-}
-
-.orange-highlight {
-    color: var(--pf-orange);
+.mobile-btn:focus {
+    box-shadow: 0 0 0 0.05rem;
 }
 
 .logo {
     max-width: 290px;
+}
+
+/*** Header intro***/
+.headline {
+    color: var(--pf-blue);
+    font-family: var(--heading-font-family);
+    font-size: 5rem;
+}
+
+.orange-highlight {
+    color: var(--pf-orange);
 }
 
 .banner-image {
@@ -51,9 +58,15 @@ header, #header-banner{
     margin-right: 10px;
 }
 
+/*** Collection ***/
+.collection-title {
+    color: var(--pf-blue);
+    font-family: var(--heading-font-family);
+    font-size: 3rem;
+}
+
 .product-card {
     padding: 20px;
-    margin: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     display:block;
@@ -69,6 +82,12 @@ header, #header-banner{
     width: auto !important;   
 }
 
+.product-title, .feature-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--pf-blue);
+}
+
 .product-card-footer {
     background: #fff;
     border: 0;
@@ -76,10 +95,33 @@ header, #header-banner{
 
 .price {
     font-size: 36px;
+    color: var(--pf-orange);
 }
 
+/*** Feature ***/
+.feature-card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+
+.feature-card-image {
+    max-width: 78px;
+}
+
+/*** Responsive ***/
 @media screen and (max-width:576px) {
     .headline {
         font-size: 60px;
+    }
+
+    .logo {
+        max-width: 240px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .feature-card {
+        max-width: 490px;
     }
 }

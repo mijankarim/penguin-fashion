@@ -17,65 +17,70 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <title>Penguin Fashion</title>
+
   </head>
   <body>
-    
+
+<!--Start Header-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container">
-          <a class="navbar-brand" href="/"><img class="logo" src="./images/logo.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="/"><img class="logo" src="./images/logo.png" alt="Penguin Fashion"></a>
+          <button class="navbar-toggler border-0 mobile-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav py-4 py-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active px-4" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link px-4" href="#">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link px-4" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link px-4" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
   </header>
+<!--End Header-->
 
-  <section id="header-banner">
-      <div class="container">
-          <div class="row py-5">
-            <div class="col-md-6 py-5">
+<!--Start Header intro-->
+  <section id="header-banner" class="pt-md-5 pb-5">
+      <div class="container pb-5">
+          <div class="row">
+            <div class="col-lg-6 py-5">
                 <h1 class="headline text-uppercase lh-1 my-0">
                     <span class="orange-highlight">Be the Penguins</span><br> of Winter
                 </h1>
                 <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a href="#" class="btn btn-buy text-white my-2"><i class="fa fa-cart fa-shopping-cart"></i>Buy Now</a>
             </div>
-            <div class="col-md-6 col">
-                <img class="banner-image" src="images/banner-image.png" alt="Penguin Fashion">
+            <div class="col-lg-6">
+                <img class="banner-image img-fluid" src="images/banner-image.png" alt="Penguin Fashion">
             </div>
           </div>
       </div>
   </section>
+<!--End Header intro-->
 
-  <section>
+<!--Start Women Jacket Collection-->
+  <section id="product-collection" class="py-5">
       <div class="container">
-          <h2 class="collection-title">Women Jacket</h2>
-          <div class="d-flex justify-content-around flex-column flex-lg-row">
-            <div class="card product-card border-0">
+          <h2 class="collection-title mb-4 text-center text-md-start text-uppercase">Women Jacket</h2>
+          <div class="d-flex justify-content-center justify-content-md-between flex-column flex-lg-row">
+            <div class="card product-card border-0 mb-4 me-md-4">
                 <div class="product-image d-flex justify-content-center py-4">
                     <img src="./images/product-images/yellow-coat-jacket.png" class="card-img-top" alt="Yellow Coat Jacket">
                 </div>                
                 <div class="card-body px-0">
-                  <h5 class="card-title product-title">Yellow Coat Jacket</h5>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
-                    printing and typesetting industry.</p>
+                  <h5 class="card-title product-title py-2 mb-1">Yellow Coat Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
                   <div class="price fw-bold">$234</div>
@@ -83,14 +88,13 @@
                 </div>
               </div>
 
-              <div class="card product-card border-0">
+              <div class="card product-card border-0 mb-4 me-md-4">
                 <div class="product-image d-flex justify-content-center py-4">
                     <img src="./images/product-images/ladies-jacket.png" class="card-img-top" alt="Ladies Jacket">
                 </div>
                 <div class="card-body px-0">
-                  <h5 class="card-title product-title">Ladies Jacket</h5>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
-                    printing and typesetting industry.</p>
+                  <h5 class="card-title product-title py-2 mb-1">Ladies Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
                     <div class="price fw-bold">$234</div>
@@ -98,14 +102,13 @@
                 </div>
               </div>
 
-              <div class="card product-card border-0">
+              <div class="card product-card border-0 mb-4 mx-0">
                 <div class="product-image d-flex justify-content-center py-4">
                     <img src="./images/product-images/leather-jacket.png" class="card-img-top" alt="Woman Leather Jacket">
                 </div>
                 <div class="card-body px-0">
-                  <h5 class="card-title product-title">Woman Leather Jacket</h5>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
-                    printing and typesetting industry.</p>
+                  <h5 class="card-title product-title py-2 mb-1">Woman Leather Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
                     <div class="price fw-bold">$234</div>
@@ -115,12 +118,125 @@
           </div>
       </div>
   </section>
+<!--End Women Jacket Collection-->
 
+<!--Start Men Jacket Collection-->
+  <section id="product-collection" class="pt-2 pb-5">
+    <div class="container">
+        <h2 class="collection-title mb-4 text-center text-md-start text-uppercase">Men Jacket</h2>
+        <div class="d-flex justify-content-center justify-content-md-between flex-column flex-lg-row">
+          <div class="card product-card border-0 mb-4 me-md-4">
+              <div class="product-image d-flex justify-content-center py-4">
+                  <img src="./images/product-images/snowboard-jacket-mens.png" class="card-img-top px-3" alt="Snowboard Jacket Mens">
+              </div>                
+              <div class="card-body px-0">
+                <h5 class="card-title product-title py-2 mb-1">Snowboard Jacket Mens</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
+                <div class="price fw-bold">$234</div>
+                <a href="#" class="btn btn-buy text-white"><i class="fa fa-cart fa-shopping-cart"></i>Buy Now</a>
+              </div>
+            </div>
+
+            <div class="card product-card border-0 mb-4 me-md-4">
+              <div class="product-image d-flex justify-content-center py-4">
+                  <img src="./images/product-images/man-leather-jackets.png" class="card-img-top" alt="Man Leather Jackets">
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title product-title py-2 mb-1">Man Leather Jackets</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
+                  <div class="price fw-bold">$234</div>
+                  <a href="#" class="btn btn-buy text-white"><i class="fa fa-cart fa-shopping-cart"></i>Buy Now</a>
+              </div>
+            </div>
+
+            <div class="card product-card border-0 mb-4 mx-0">
+              <div class="product-image d-flex justify-content-center py-4">
+                  <img src="./images/product-images/man-casual-jackets.png" class="card-img-top" alt="Man Casual Jackets">
+              </div>
+              <div class="card-body px-0">
+                <h5 class="card-title product-title py-2 mb-1">Man Casual Jackets</h5>
+                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer product-card-footer d-flex justify-content-between align-items-center px-0">
+                  <div class="price fw-bold">$234</div>
+                  <a href="#" class="btn btn-buy text-white"><i class="fa fa-cart fa-shopping-cart"></i>Buy Now</a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!--End Men Jacket Collection-->
+
+<!--Start Feature-->
+  <section id="feature" class="py-5">
+    <div class="container">
+      <div class="row flex-row-reverse gy-5">
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <img src="images/feature.png" class="img-fluid mx-auto d-block" alt="Feature">
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="card feature-card mb-3 py-2">
+            <div class="row g-0">
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img src="./images/find-fit.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Find the Perfect Fit">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title  feature-card-title text-center text-md-start">Find the Perfect Fit</h5>
+                  <p class="card-text text-center text-md-start">Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card feature-card mb-3 py-2">
+            <div class="row g-0">
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img src="./images/free-exchange.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Free Exchanges">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title feature-card-title text-center text-md-start">Free Exchanges</h5>
+                  <p class="card-text text-center text-md-start">One of the many reasons you can shop with peace of mind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card feature-card mb-3 py-2">
+            <div class="row g-0">
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img src="./images/contact-seller.png" class="img-fluid feature-card-image pt-3 pt-md-0" alt="Contact Our Seller">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body d-flex justify-content-center flex-column">
+                  <h5 class="card-title feature-card-title text-center text-md-start">Contact Our Seller</h5>
+                  <p class="card-text text-center text-md-start">They are here to help you. That's quite literally what we pay them for.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!--End Feature-->
+
+<!--Start Footer-->
   <footer>
       <div class="container">
 
       </div>
   </footer>
+<!--End Footer-->
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
